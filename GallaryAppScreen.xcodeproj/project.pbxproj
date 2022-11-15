@@ -15,6 +15,7 @@
 		B5B3CB9C292385A1008C849B /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B3CB9B292385A1008C849B /* ListCell.swift */; };
 		B5B3CB9F292385D2008C849B /* ScrollCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B3CB9E292385D2008C849B /* ScrollCell.swift */; };
 		B5B3CBA129238608008C849B /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B3CBA029238608008C849B /* SectionHeader.swift */; };
+		B5B3CBA4292387AA008C849B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B3CBA3292387AA008C849B /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		B5B3CB9B292385A1008C849B /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
 		B5B3CB9E292385D2008C849B /* ScrollCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollCell.swift; sourceTree = "<group>"; };
 		B5B3CBA029238608008C849B /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		B5B3CBA3292387AA008C849B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				B5B3CB9829238455008C849B /* Model */,
 				B5B3CB9D292385A7008C849B /* Cells */,
 				B5B3CBA22923860D008C849B /* SectionHeader */,
+				B5B3CBA5292387AF008C849B /* Extensions */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -143,6 +146,14 @@
 				B5B3CBA029238608008C849B /* SectionHeader.swift */,
 			);
 			path = SectionHeader;
+			sourceTree = "<group>";
+		};
+		B5B3CBA5292387AF008C849B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B5B3CBA3292387AA008C849B /* Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +232,7 @@
 				B5B3CB9A29238464008C849B /* Model.swift in Sources */,
 				B5B3CB7F292381C5008C849B /* AppDelegate.swift in Sources */,
 				B5B3CB9F292385D2008C849B /* ScrollCell.swift in Sources */,
+				B5B3CBA4292387AA008C849B /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
