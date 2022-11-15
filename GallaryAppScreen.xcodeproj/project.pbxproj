@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		B5B3CB7F292381C5008C849B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B3CB7E292381C5008C849B /* AppDelegate.swift */; };
-		B5B3CB81292381C5008C849B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B3CB80292381C5008C849B /* SceneDelegate.swift */; };
 		B5B3CB83292381C5008C849B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B3CB82292381C5008C849B /* ViewController.swift */; };
-		B5B3CB86292381C5008C849B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B3CB84292381C5008C849B /* Main.storyboard */; };
 		B5B3CB88292381C6008C849B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B3CB87292381C6008C849B /* Assets.xcassets */; };
 		B5B3CB8B292381C6008C849B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B3CB89292381C6008C849B /* LaunchScreen.storyboard */; };
+		B5B3CB9A29238464008C849B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B3CB9929238464008C849B /* Model.swift */; };
+		B5B3CB9C292385A1008C849B /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B3CB9B292385A1008C849B /* ListCell.swift */; };
+		B5B3CB9F292385D2008C849B /* ScrollCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B3CB9E292385D2008C849B /* ScrollCell.swift */; };
+		B5B3CBA129238608008C849B /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B3CBA029238608008C849B /* SectionHeader.swift */; };
+		B5B3CBA4292387AA008C849B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B3CBA3292387AA008C849B /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B5B3CB7B292381C5008C849B /* GallaryAppScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GallaryAppScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B3CB7E292381C5008C849B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B5B3CB80292381C5008C849B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B5B3CB82292381C5008C849B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B5B3CB85292381C5008C849B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5B3CB87292381C6008C849B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5B3CB8A292381C6008C849B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5B3CB8C292381C6008C849B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5B3CB9929238464008C849B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		B5B3CB9B292385A1008C849B /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		B5B3CB9E292385D2008C849B /* ScrollCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollCell.swift; sourceTree = "<group>"; };
+		B5B3CBA029238608008C849B /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		B5B3CBA3292387AA008C849B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,98 @@
 		B5B3CB7D292381C5008C849B /* GallaryAppScreen */ = {
 			isa = PBXGroup;
 			children = (
-				B5B3CB7E292381C5008C849B /* AppDelegate.swift */,
-				B5B3CB80292381C5008C849B /* SceneDelegate.swift */,
-				B5B3CB82292381C5008C849B /* ViewController.swift */,
-				B5B3CB84292381C5008C849B /* Main.storyboard */,
-				B5B3CB87292381C6008C849B /* Assets.xcassets */,
-				B5B3CB89292381C6008C849B /* LaunchScreen.storyboard */,
-				B5B3CB8C292381C6008C849B /* Info.plist */,
+				B5B3CB972923832F008C849B /* Sources */,
+				B5B3CB9429238315008C849B /* Resources */,
 			);
 			path = GallaryAppScreen;
+			sourceTree = "<group>";
+		};
+		B5B3CB9229238301008C849B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B5B3CB89292381C6008C849B /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B5B3CB932923830C008C849B /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				B5B3CB8C292381C6008C849B /* Info.plist */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		B5B3CB9429238315008C849B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B5B3CB87292381C6008C849B /* Assets.xcassets */,
+				B5B3CB9229238301008C849B /* Storyboards */,
+				B5B3CB932923830C008C849B /* Configs */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B5B3CB9529238325008C849B /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				B5B3CB82292381C5008C849B /* ViewController.swift */,
+				B5B3CB9829238455008C849B /* Model */,
+				B5B3CB9D292385A7008C849B /* Cells */,
+				B5B3CBA22923860D008C849B /* SectionHeader */,
+				B5B3CBA5292387AF008C849B /* Extensions */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		B5B3CB9629238329008C849B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B5B3CB7E292381C5008C849B /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B5B3CB972923832F008C849B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B5B3CB9629238329008C849B /* App */,
+				B5B3CB9529238325008C849B /* Scenes */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B5B3CB9829238455008C849B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5B3CB9929238464008C849B /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B5B3CB9D292385A7008C849B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B5B3CB9B292385A1008C849B /* ListCell.swift */,
+				B5B3CB9E292385D2008C849B /* ScrollCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B5B3CBA22923860D008C849B /* SectionHeader */ = {
+			isa = PBXGroup;
+			children = (
+				B5B3CBA029238608008C849B /* SectionHeader.swift */,
+			);
+			path = SectionHeader;
+			sourceTree = "<group>";
+		};
+		B5B3CBA5292387AF008C849B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B5B3CBA3292387AA008C849B /* Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +216,6 @@
 			files = (
 				B5B3CB8B292381C6008C849B /* LaunchScreen.storyboard in Resources */,
 				B5B3CB88292381C6008C849B /* Assets.xcassets in Resources */,
-				B5B3CB86292381C5008C849B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,22 +227,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5B3CB83292381C5008C849B /* ViewController.swift in Sources */,
+				B5B3CB9C292385A1008C849B /* ListCell.swift in Sources */,
+				B5B3CBA129238608008C849B /* SectionHeader.swift in Sources */,
+				B5B3CB9A29238464008C849B /* Model.swift in Sources */,
 				B5B3CB7F292381C5008C849B /* AppDelegate.swift in Sources */,
-				B5B3CB81292381C5008C849B /* SceneDelegate.swift in Sources */,
+				B5B3CB9F292385D2008C849B /* ScrollCell.swift in Sources */,
+				B5B3CBA4292387AA008C849B /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B5B3CB84292381C5008C849B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B5B3CB85292381C5008C849B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B5B3CB89292381C6008C849B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,10 +373,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = H87TDKA3ZG;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GallaryAppScreen/Info.plist;
+				INFOPLIST_FILE = GallaryAppScreen/Resources/Configs/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -317,10 +400,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = H87TDKA3ZG;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GallaryAppScreen/Info.plist;
+				INFOPLIST_FILE = GallaryAppScreen/Resources/Configs/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
