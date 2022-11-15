@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  Model.swift
 //  GallaryAppScreen
 //
 //  Created by Ваня Сокол on 15.11.2022.
