@@ -11,6 +11,7 @@
 		B5B3CB83292381C5008C849B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B3CB82292381C5008C849B /* ViewController.swift */; };
 		B5B3CB88292381C6008C849B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B3CB87292381C6008C849B /* Assets.xcassets */; };
 		B5B3CB8B292381C6008C849B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B3CB89292381C6008C849B /* LaunchScreen.storyboard */; };
+		B5B3CB9A29238464008C849B /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B3CB9929238464008C849B /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		B5B3CB87292381C6008C849B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5B3CB8A292381C6008C849B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5B3CB8C292381C6008C849B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5B3CB9929238464008C849B /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				B5B3CB82292381C5008C849B /* ViewController.swift */,
+				B5B3CB9829238455008C849B /* Model */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -107,6 +110,14 @@
 				B5B3CB9529238325008C849B /* Scenes */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		B5B3CB9829238455008C849B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5B3CB9929238464008C849B /* File.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5B3CB83292381C5008C849B /* ViewController.swift in Sources */,
+				B5B3CB9A29238464008C849B /* File.swift in Sources */,
 				B5B3CB7F292381C5008C849B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
